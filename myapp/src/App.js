@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes, Link } from "react-router-dom";
 import About from "./page/About";
-import Resume from "./page/Resume";
+
 import Connect from "./page/Connect";
 import Work from "./page/Work";
 import Navbar from "./components/Navbar";
@@ -16,8 +16,6 @@ function App() {
           <Route path="/about" element={<About />} />
 
           <Route path="/work" element={<Work />} />
-
-          <Route path="/resume" element={<Resume />} />
 
           <Route path="/connect" element={<Connect />} />
         </Routes>
