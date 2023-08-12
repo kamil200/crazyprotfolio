@@ -12,7 +12,7 @@ function Gif() {
         style={{ maxWidth: "100%", height: "auto" }} />
       </div>
       <h1>
-        <Link to="/resume">hehe, chalo yaha aa hi gye ho to  </Link>
+        <Link to="/resume">hehe  </Link>
       </h1>
       
     </>
