@@ -11,8 +11,8 @@ function Gif() {
         <img src={img} alt="Your GIF"
         style={{ maxWidth: "100%", height: "auto" }} />
       </div>
-      <h1>
-        <Link to="/resume">hehe  </Link>
+      <h1 style={ {textAlign: "center"}}>
+        <Link to="/resume"> <span  >😂 </span>  </Link>
       </h1>
       
     </>
