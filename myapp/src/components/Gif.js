@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
+import { Link} from "react-router-dom";
 import img from "../gif/a.gif";
 
 
@@ -12,7 +12,7 @@ function Gif() {
         style={{ maxWidth: "100%", height: "auto" }} />
       </div>
       <h1 style={ {textAlign: "center"}}>
-        <Link to="/resume"> <span  >😂 </span>  </Link>
+        <Link to="/Rresume"> <span  >🤫➡️ </span>  </Link>
       </h1>
       
     </>

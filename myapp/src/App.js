@@ -8,6 +8,7 @@ import Resume from "./Resume";
 
 
 import Gif from "./components/Gif";
+import RealResume from "./RealResume";
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
     
     
       <Routes>
-        <Route path="/" element={<Gif />} />
+        <Route path="/" element={<Resume />} />
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work />} />
         <Route path="/connect" element={<Connect />} />
-       <Route path="/resume" element={<Resume />} />
+       <Route path="/resume" element={<Gif />} />
+       <Route path="/Rresume" element={<RealResume />} />
       </Routes>
     </>
   );
