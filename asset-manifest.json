@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1070383b.css",
-    "main.js": "/static/js/main.b41e7fa1.js",
+    "main.js": "/static/js/main.b066a94d.js",
     "static/media/a.gif": "/static/media/a.c2ee673b23facc62f9cc.gif",
     "static/media/b.gif": "/static/media/b.84c7a58c9d1893292ff4.gif",
     "static/media/kamil-patel-resume (3).pdf": "/static/media/kamil-patel-resume (3).277e31ea307178fa2dfc.pdf",
     "static/media/1.png": "/static/media/1.b436a980b345b091f4e1.png",
     "index.html": "/index.html",
     "main.1070383b.css.map": "/static/css/main.1070383b.css.map",
-    "main.b41e7fa1.js.map": "/static/js/main.b41e7fa1.js.map"
+    "main.b066a94d.js.map": "/static/js/main.b066a94d.js.map"
   },
   "entrypoints": [
     "static/css/main.1070383b.css",
-    "static/js/main.b41e7fa1.js"
+    "static/js/main.b066a94d.js"
   ]
 }
