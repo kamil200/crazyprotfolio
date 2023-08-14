@@ -12,7 +12,7 @@ function Resume() {
       <div className="under-construction">
         <div>
           <img src={img}style={{ maxWidth: "100%", height: "auto" }} />
-          <h1> GodTeir Portfolio In Construction</h1>
+          <h1> Portfolio In Construction</h1>
           <h1> tab tak  {" "}
             <Link to="/resume"> <span  >resume</span>  </Link>
                {" "}
