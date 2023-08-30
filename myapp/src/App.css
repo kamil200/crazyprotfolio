@@ -2,7 +2,7 @@
   text-align: center;
 }
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Inconsolata', monospace !important;
   color: aliceblue !important;
   background-color: black !important;
 }

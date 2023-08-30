@@ -35,10 +35,10 @@ function RealResume() {
         onLoad={handleImageLoad}
       />
       {!isLoading && (
-        <div style={{ position: 'fixed', bottom: '5%', right: '5%', maxWidth: '100%',
-        color:"white" }}>
+        <div style={{ textAlign: "center",
+        margin:"10vh"   }}>
           <h1>
-            hehe sorry, 👉🏻{' '}
+            hehe sorry, <br />👉🏻{' '}
             <a href={Pdf} target="_blank" rel="noopener noreferrer">
               RESUME
             </a>

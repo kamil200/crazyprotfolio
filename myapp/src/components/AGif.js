@@ -38,7 +38,7 @@ function AGif() {
                       margin:"10vh"     
                       }}>
           <Link to="/Rresume">
-            <span>🤫➡️</span>
+            <span>Resume➡️</span>
           </Link>
         </h1>
       )}

@@ -8,7 +8,8 @@ import {
 
 export default function App() {
   return (
-    <MDBFooter className='bg-black text-center text-white'>
+    <MDBFooter className='bg-black text-center text-white' style={{marginBottom:"10%",
+   }}>
       <MDBContainer className=''>
         <MDBBtn outline color="light" floating className='m-1' href='https://open.spotify.com/user/0i8slbved95516dua4drxxv0w' role='button'>
             <MDBIcon fab icon='spotify' />

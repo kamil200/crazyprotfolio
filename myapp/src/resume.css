@@ -4,7 +4,7 @@
   font-family: 'Inconsolata', monospace;
   justify-content: center;
   align-items: center;
-  height: 95vh; /* Ensure the container takes up at least the full viewport height */
+  /* Ensure the container takes up at least the full viewport height */
   background-color: black; /* Set the background color to black */
 }
 
@@ -15,6 +15,6 @@
 /* You might need to adjust this media query breakpoint to match your desired mobile view */
 @media (max-width: 768px) {
   .resume-container {
-    min-height: 100vh; /* Set the minimum height to the viewport height on mobile */
+    min-height: 85vh; /* Set the minimum height to the viewport height on mobile */
   }
 }

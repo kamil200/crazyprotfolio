@@ -12,6 +12,8 @@ import Facebook from "./components/Facebook";
 import Instagram from "./components/Instagram";
 import Snapchat from "./components/Snapchat";
 import Resume from "./page/Resume";
+import Navbar from "./components/Navbar"
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -25,12 +27,14 @@ function App() {
 
   if (isLoading) {
     return <div style={{textAlign:"center",
-                        fontSize:"24px",
-                        margin:"10%"}}>Loading... because good things take time (and a bit of code)<br/> ruko jara sabr karo🤌🏻</div>;
+                        fontSize:"18px",
+                        marginTop:"60%",
+                        marginLeft:"10%",
+                        marginRight:"10%"}}>Loading... because good things take time (and a bit of code)<br/> ruko jara sabr karo🤌🏻</div>;
   }
 
   return (
-    <>
+    <><Navbar />
       <Routes>
         <Route path="/" element={<Construction />} />
         <Route path="/about" element={<About />} />
@@ -44,6 +48,7 @@ function App() {
         <Route path="/snapchat" element={<Snapchat />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
+      <Footer />
     </>
   );
 }
