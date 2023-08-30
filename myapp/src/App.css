@@ -2,7 +2,8 @@
   text-align: center;
 }
 body {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Inconsolata', monospace;
+  color: aliceblue !important;
   background-color: black !important;
 }
 .App-logo {

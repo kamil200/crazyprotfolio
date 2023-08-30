@@ -12,6 +12,7 @@ import RealResume from "./components/RealResume";
 import Facebook from "./components/Facebook";
 import Instagram from "./components/Instagram";
 import Snapchat from "./components/Snapchat";
+import Resume from "./page/Resume";
 
 
 function App() {
@@ -26,11 +27,13 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/connect" element={<Connect />} />
        <Route path="/AGif" element={<AGif />} />
-       <Route path="/resume" element={<RealResume />} />
+       <Route path="/Rresume" element={<RealResume />} />
        <Route path="/footer" elemnt={<Footer />}/>
        <Route path="/facebook" element ={<Facebook />} />
        <Route path="/insta" element ={<Instagram/>} />
        <Route path="/snapchat" element={<Snapchat />} />
+       <Route path="/resume" element={<Resume />} />
+
       </Routes>
     </>
   );

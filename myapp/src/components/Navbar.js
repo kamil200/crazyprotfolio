@@ -1,43 +1,63 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Pdf from "../resume/kamil-patel-resume (3).pdf";
-import "../navbar.css"; // Import your custom CSS for styling
+import React, { useState } from 'react';
+import {
+  MDBNavbar,
+  MDBContainer,
+  MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBNavbarToggler,
+  MDBCollapse,
+  MDBDropdown,
+  MDBDropdownMenu,
+  MDBDropdownToggle,
+  MDBDropdownItem,
+} from 'mdb-react-ui-kit';
 
-function Navbar() {
+export default function App() {
+  const [showNavCentred, setShowNavCentred] = useState(false);
+
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-       
-        <ul className="nav-menu">
-          <li className="nav-item">
-            <Link to="/" className="nav-link">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/about" className="nav-link">
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/connect" className="nav-link">
-              Connect
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/work" className="nav-link">
-              Work
-            </Link>
-          </li>
-          <li className="nav-item">
-            <a href={Pdf} className="nav-link" target="_blank" rel="noopener noreferrer">
-              Resume
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <MDBNavbar expand='lg' dark bgColor='black'>
+      <MDBContainer fluid>
+        <MDBNavbarToggler
+          type='button'
+          data-target='#navbarCenteredExample'
+          aria-controls='navbarCenteredExample'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+          onClick={() => setShowNavCentred(!showNavCentred)}
+        >
+          <MDBIcon icon='bars' fas />
+        </MDBNavbarToggler>
+
+        <MDBCollapse navbar show={showNavCentred} center id='navbarCenteredExample'>
+          <MDBNavbarNav fullWidth={false} className='mb-2 mb-lg-0'>
+            <MDBNavbarItem>
+              <MDBNavbarLink active aria-current='page' href='#/about'>
+                About ME
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#/work'>Work</MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
+              <MDBDropdown>
+                <MDBDropdownToggle tag='a' className='nav-link'>
+                  Projects
+                </MDBDropdownToggle>
+                <MDBDropdownMenu>
+                  <MDBDropdownItem link>GOOD PROJECT</MDBDropdownItem>
+                  <MDBDropdownItem link>BETTER PROJECT</MDBDropdownItem>
+                  <MDBDropdownItem link>BEST PROJECT</MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown>
+            </MDBNavbarItem>
+            
+          </MDBNavbarNav>
+        </MDBCollapse>
+      </MDBContainer>
+    </MDBNavbar>
   );
 }
-
-export default Navbar;

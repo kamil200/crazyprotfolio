@@ -1,7 +1,7 @@
 /* Add this CSS to your 'resume.css' or in a <style> tag in your component */
 
 .resume-container {
- 
+  font-family: 'Inconsolata', monospace;
   justify-content: center;
   align-items: center;
   height: 95vh; /* Ensure the container takes up at least the full viewport height */

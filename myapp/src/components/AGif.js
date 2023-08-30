@@ -36,7 +36,7 @@ function AGif() {
         <h1 style={{ textAlign: "center",
                       margin:"10vh"     
                       }}>
-          <Link to="/resume">
+          <Link to="/Rresume">
             <span>🤫➡️</span>
           </Link>
         </h1>
