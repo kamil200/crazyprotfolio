@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e40f470.css",
-    "main.js": "/static/js/main.cea8b967.js",
+    "main.css": "/static/css/main.9a7344d3.css",
+    "main.js": "/static/js/main.9b20ee7d.js",
     "static/media/kamil.gif": "/static/media/kamil.f11565fd72a580434e7c.gif",
     "static/media/a.gif": "/static/media/a.c2ee673b23facc62f9cc.gif",
     "static/media/b.gif": "/static/media/b.84c7a58c9d1893292ff4.gif",
@@ -11,15 +11,16 @@
     "static/media/kamil-patel-resume (3).pdf": "/static/media/kamil-patel-resume (3).277e31ea307178fa2dfc.pdf",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/snapchat.gif": "/static/media/snapchat.2e0c500e6729b48eb3b4.gif",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/index.html",
-    "main.4e40f470.css.map": "/static/css/main.4e40f470.css.map",
-    "main.cea8b967.js.map": "/static/js/main.cea8b967.js.map"
+    "main.9a7344d3.css.map": "/static/css/main.9a7344d3.css.map",
+    "main.9b20ee7d.js.map": "/static/js/main.9b20ee7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e40f470.css",
-    "static/js/main.cea8b967.js"
+    "static/css/main.9a7344d3.css",
+    "static/js/main.9b20ee7d.js"
   ]
 }
