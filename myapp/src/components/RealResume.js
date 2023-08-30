@@ -22,7 +22,7 @@ function RealResume() {
       }}
     >
       <div style={{ textAlign: 'center', display: isLoading ? 'block' : 'none' }}>
-        Loading...
+      bro use good speed net.... load ho raha
       </div>
       <img
         src={img}

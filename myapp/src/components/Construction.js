@@ -23,7 +23,7 @@ function Construction() {
             color: 'white', // Change the color to your preference
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', // Add a subtle text shadow
             
-            fontSize:'16px'
+            fontSize:'18px'
           }}>
             this page is under construction 
             <br/>tab tak, take a look at my 👉🏻 

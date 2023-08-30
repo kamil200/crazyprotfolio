@@ -31,7 +31,8 @@ function AGif() {
         />
       </div>
       {isLoading ? (
-        <div style={{ textAlign: "center" }}>Loading...</div>
+        <div style={{ textAlign: "center" }}>  bro use good speed net.... load ho raha</div>
+    
       ) : (
         <h1 style={{ textAlign: "center",
                       margin:"10vh"     
