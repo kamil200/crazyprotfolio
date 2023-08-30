@@ -26,7 +26,7 @@ function App() {
   if (isLoading) {
     return <div style={{textAlign:"center",
                         fontSize:"24px",
-                        margin:"10%"}}>use good speed net....<br/> load ho raha</div>;
+                        margin:"10%"}}>Loading... because good things take time (and a bit of code)<br/> ruko jara sabr karo🤌🏻</div>;
   }
 
   return (

@@ -28,7 +28,7 @@ function Snapchat() {
         onLoad={handleImageLoad}
       />
       {isLoading && (
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>Loading...</div>
+        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>If you can read this, you're too fast</div>
       )}
     </div>
   );
