@@ -4,11 +4,14 @@ import About from './page/About';
 import Connect from './page/Connect';
 import Work from './page/Work';
 
-import Resume from "./Resume";
+import Construction from "./components/Construction";
+import Footer from "./components/Footer"
 
+import AGif from "./components/AGif";
+import RealResume from "./components/RealResume";
+import Facebook from "./components/Facebook";
+import Instagram from "./components/Instagram";
 
-import Gif from "./components/Gif";
-import RealResume from "./RealResume";
 
 function App() {
   return (
@@ -17,12 +20,15 @@ function App() {
     
     
       <Routes>
-        <Route path="/" element={<Resume />} />
+        <Route path="/" element={<Construction />} />
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work />} />
         <Route path="/connect" element={<Connect />} />
-       <Route path="/resume" element={<Gif />} />
-       <Route path="/Rresume" element={<RealResume />} />
+       <Route path="/AGif" element={<AGif />} />
+       <Route path="/resume" element={<RealResume />} />
+       <Route path="/footer" elemnt={<Footer />}/>
+       <Route path="/facebook" element ={<Facebook />} />
+       <Route path="/insta" element ={<Instagram/>} />
       </Routes>
     </>
   );

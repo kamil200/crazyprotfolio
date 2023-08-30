@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import img from './gif/b.gif';
-import Pdf from './resume/kamil-patel-resume (3).pdf';
+import img from '../gif/b.gif';
+import Pdf from '../resume/kamil-patel-resume (3).pdf';
 
 function RealResume() {
   const [isLoading, setIsLoading] = useState(true);
@@ -16,7 +16,9 @@ function RealResume() {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '100vh', // Make sure the container takes up full viewport height
+        height: '100vh', 
+        background:"black" // Make sure the container takes up full viewport height
+
       }}
     >
       <div style={{ textAlign: 'center', display: isLoading ? 'block' : 'none' }}>
@@ -33,20 +35,15 @@ function RealResume() {
         onLoad={handleImageLoad}
       />
       {!isLoading && (
-        <div style={{ position: 'fixed', bottom: '5%', right: '5%', maxWidth: '100%' }}>
+        <div style={{ position: 'fixed', bottom: '5%', right: '5%', maxWidth: '100%',
+        color:"white" }}>
           <h1>
-            hehe sorry, this is the REAL{' '}
+            hehe sorry, 👉🏻{' '}
             <a href={Pdf} target="_blank" rel="noopener noreferrer">
-              resume
+              RESUME
             </a>
           </h1>
-          <a
-            href="https://www.youtube.com/watch?v=zL19uMsnpSU"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            and Subscribe to my YouTube Channel
-          </a>
+        
         </div>
       )}
     </div>

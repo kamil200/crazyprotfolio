@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import img from "../gif/a.gif";
 
-function Gif() {
+function AGif() {
   const [isLoading, setIsLoading] = useState(true);
 
   const handleImageLoad = () => {
@@ -15,7 +15,8 @@ function Gif() {
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      height: "100vh", // Make sure the container takes up full viewport height
+      height: "100vh",
+      background:"black" // Make sure the container takes up full viewport height
     }}>
       <div style={{ textAlign: "center" }}>
         <img
@@ -32,8 +33,10 @@ function Gif() {
       {isLoading ? (
         <div style={{ textAlign: "center" }}>Loading...</div>
       ) : (
-        <h1 style={{ textAlign: "center" }}>
-          <Link to="/Rresume">
+        <h1 style={{ textAlign: "center",
+                      margin:"10vh"     
+                      }}>
+          <Link to="/resume">
             <span>🤫➡️</span>
           </Link>
         </h1>
@@ -42,4 +45,4 @@ function Gif() {
   );
 }
 
-export default Gif;
+export default AGif;

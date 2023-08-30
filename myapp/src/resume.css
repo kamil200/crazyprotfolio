@@ -1,58 +1,20 @@
-/* Resume.css */
+/* Add this CSS to your 'resume.css' or in a <style> tag in your component */
+
+.resume-container {
+ 
+  justify-content: center;
+  align-items: center;
+  height: 95vh; /* Ensure the container takes up at least the full viewport height */
+  background-color: black; /* Set the background color to black */
+}
 
 .under-construction {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f1f1f1;
-  }
-  
-  .under-construction h1 {
-    font-size: 24px;
-    color: #333;
-    text-align: center;
-  }
-  /* Default styles for larger screens */
-.resume-container {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  /* Media query for tablets and smaller screens */
-  @media (max-width: 768px) {
-    .resume-container {
-      width: 90%;
-    }
-  }
-  
-  /* Media query for mobile phones */
-  @media (max-width: 480px) {
-    .resume-container {
-      width: 95%;
-    }
-}
-/* resume.css */
-.resume-container {
-  width: 80%;
-  margin: 0 auto;
+  text-align: center;
 }
 
-/* Media query for tablets and smaller screens */
+/* You might need to adjust this media query breakpoint to match your desired mobile view */
 @media (max-width: 768px) {
   .resume-container {
-    width: 90%;
+    min-height: 100vh; /* Set the minimum height to the viewport height on mobile */
   }
-}
-
-/* Media query for mobile phones */
-@media (max-width: 480px) {
-  .resume-container {
-    width: 95%;
-  }
-}
-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
