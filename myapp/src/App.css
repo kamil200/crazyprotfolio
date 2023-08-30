@@ -3,6 +3,7 @@
 }
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
+  background-color: black !important;
 }
 .App-logo {
   height: 40vmin;

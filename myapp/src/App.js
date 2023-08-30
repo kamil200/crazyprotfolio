@@ -11,6 +11,7 @@ import AGif from "./components/AGif";
 import RealResume from "./components/RealResume";
 import Facebook from "./components/Facebook";
 import Instagram from "./components/Instagram";
+import Snapchat from "./components/Snapchat";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
        <Route path="/footer" elemnt={<Footer />}/>
        <Route path="/facebook" element ={<Facebook />} />
        <Route path="/insta" element ={<Instagram/>} />
+       <Route path="/snapchat" element={<Snapchat />} />
       </Routes>
     </>
   );

@@ -22,7 +22,7 @@ export default function App() {
             <MDBIcon fab icon='twitter' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='https://www.snapchat.com/add/kaamil.patel?share_id=FGarZeiLRyk&locale=en-US' role='button' >
+          <MDBBtn outline color="light" floating className='m-1' href='#/snapchat' role='button' >
             <MDBIcon fab icon='snapchat' />
           </MDBBtn>
           <MDBBtn outline color="light" floating className='m-1' href='#/insta' role='button'>
