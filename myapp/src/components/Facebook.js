@@ -1,11 +1,10 @@
 import React from 'react'
-import facebook from "../gif/facebook/png"
+import facebook from "../gif/facebook.png"
 function Facebook() {
   return (
     <div>
-        <h1>
-            who the 🦆 is using facebook this days
-        </h1>
+        
+        <img src={facebook} style={{width:"100vw"}}/>
     </div>
   )
 }
